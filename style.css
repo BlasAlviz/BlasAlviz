@@ -1,0 +1,26 @@
+body{
+    background-color: #F8F8F8;
+    color: #031D5B;
+    font-family: Encode sans;
+    font-size: 16pt;
+}
+.navbar_list{
+    display: inline-block;
+}
+.navbar_list>a{
+    text-decoration: none;
+    color:#031D5B;
+    font-family: Roboto, Encode sans;
+}
+h1{
+    font-family: Encode sans;
+    font-size: 48pt;
+}
+.search-bar{
+    border-width: 2px;
+    border-color:#F8765E;
+    border-radius: 4px;
+    height: 48px;
+    width: 336px;
+
+}
