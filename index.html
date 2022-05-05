@@ -1,59 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
     <title>Orange Search Engine</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <img src="images/logo.png" alt="Orange logo">
-            <ul class="navbar_list">
-                <a href="#">Benefits</a>
-                <a href="#">Pricing</a>
-                <a href="#">Testimonials</a>
-            </ul>
-        </nav>
+      <img src="./images/logo.png" alt="Orange Search Engine Logo" />
+      <nav>
+        <ul class="nav-container">
+          <a href="#">Benefit</a>
+          <a href="#">Pricing</a>
+          <a href="#">Testimonials</a>
+        </ul>
+      </nav>
     </header>
+
     <main>
-        <img src="images/iPhoneMockupHeader_Phone.svg" alt="Iphone Mockup">
-        <section>
-            <input type="search" placeholder="Search the web" class="search-bar">
-            <img src="images/serch_icon.png" alt="Search icon">
+      <img
+        src="./images/iPhoneMockupHeader_Phone_.png"
+        alt="image of iPhone Mockup"
+        class="iPhone"
+      />
+
+      <section>
+        <div>
+          <input type="search" placeholder="Search the web" id="search_field"/>
+          <img
+            src="./images/serch_icon.png"
+            alt="search icon"
+            id="magnifier"
+          />
+        </div>
+
+        <div>
+          <h1>Tired of your data being squeezed? Here to help!</h1>
+          <p class="bodyText">
+            Get the online privacy protection you deserve for free with one
+            download in the App Store:
+          </p>
+
+          <div class="feature-box">
+            <div class="feature-container">
             <div>
-                <h1>Tired of your data being squeezed? Here to help!</h1>
-                <p>Get the online privacy protection you deserve for free with one download in the App store:</p>
-                <div>
-                    <div>
-                        <img src="images/checkBox_phone.svg" alt="">
-                        <h3>Private Search</h3>
-                    </div>
-                    <div>
-                        <img src="images/checkBox_phone.svg" alt="">
-                        <h3>Tracker Blocking</h3>
-                    </div>
-                    <div>
-                        <img src="images/checkBox_phone.svg" alt="">
-                        <h3>Site Encryption</h3>
-                    </div>
-                </div>
-                <button>Download now</button>
-                <div>
-                    <img src="images/ratingDark.png" alt="">
-                    <img src="images/ratingDark.png" alt="">
-                    <img src="images/ratingDark.png" alt="">
-                    <img src="images/ratingDark.png" alt="">
-                    <img src="images/ratingLight.png" alt="">
-                    <span>Rated 4/5</span>
-                </div>
+              <img
+                src="./images/checkBox_phone.svg"
+                alt="checkbox icon"
+              />
+              <h3 class="features">Private Search</h3>
             </div>
-        </section>
+            <div class="feature-child">
+              <img
+                src="./images/checkBox_phone.svg"
+                alt="checkbox icon"
+              />
+              <h3 class="features">Tracker Blocking</h3>
+            </div>
+            <div class="feature-child">
+              <img
+                src="./images/checkBox_phone.svg"
+                alt="checkbox icon"
+              />
+              <h3 class="features">Site Encryption</h3>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+        
+        <div class="ratingAndButton">
+            <button>Download now</button>
+            <div id="rating-container">
+            <img src="./images/ratingDark.png" alt="Rated 4 of 5" />
+            <img src="./images/ratingDark.png" alt="Rated 4 of 5" />
+            <img src="./images/ratingDark.png" alt="Rated 4 of 5" />
+            <img src="./images/ratingDark.png" alt="Rated 4 of 5" />
+            <img src="./images/ratingLight.png" alt="Rated 4 of 5" />
+            <span>Rated 4/5</span>
+            </div>
+        </div>
+
+      </section>
     </main>
+
     <footer>
-        <p>Privacy for everyone</p>
+      <p>Privacy for everyone</p>
     </footer>
-</body>
+  </body>
 </html>
